@@ -22,6 +22,7 @@
   "name":"Garbage Gaurdians",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"Test_note","path":"notes/Test_note/Test_note.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Spr_button_background","path":"sprites/Spr_button_background/Spr_button_background.yy",},},
