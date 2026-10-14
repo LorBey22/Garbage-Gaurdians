@@ -24,9 +24,12 @@
   },
   "name":"Garbage Gaurdians",
   "resources":[
+    {"id":{"name":"Obj_candy_wrapper","path":"objects/Obj_candy_wrapper/Obj_candy_wrapper.yy",},},
     {"id":{"name":"Obj_Play_Button","path":"objects/Obj_Play_Button/Obj_Play_Button.yy",},},
     {"id":{"name":"Obj_Quit_Button","path":"objects/Obj_Quit_Button/Obj_Quit_Button.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Obj_trash_bin","path":"objects/Obj_trash_bin/Obj_trash_bin.yy",},},
+    {"id":{"name":"Obj_trash_parent","path":"objects/Obj_trash_parent/Obj_trash_parent.yy",},},
+    {"id":{"name":"Fight_1","path":"rooms/Fight_1/Fight_1.yy",},},
     {"id":{"name":"Title_Room","path":"rooms/Title_Room/Title_Room.yy",},},
     {"id":{"name":"Spr_Balled_Up_Paper","path":"sprites/Spr_Balled_Up_Paper/Spr_Balled_Up_Paper.yy",},},
     {"id":{"name":"Spr_button_background","path":"sprites/Spr_button_background/Spr_button_background.yy",},},
@@ -44,7 +47,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Title_Room","path":"rooms/Title_Room/Title_Room.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Fight_1","path":"rooms/Fight_1/Fight_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
