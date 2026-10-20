@@ -9,7 +9,22 @@ if (dragging)
     {
         dragging = false;
         if (place_meeting(x, y, Obj_trash_bin)) {
-            instance_destroy();
-        }		
+
+			var trash_choice = choose(
+				Obj_candy_wrapper,
+				Obj_Chip_Bag,
+				Obj_Styrofoam_Cup,
+				Obj_Used_Tissue
+			);
+
+			instance_create_layer(
+				650,
+				85,
+				"Trash_Instances",
+				trash_choice
+			);
+
+			instance_destroy();
+		}
+				}		
     }
-}
