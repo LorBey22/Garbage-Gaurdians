@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"Spr_Chip_Bag",
   "bboxMode":0,
-  "bbox_bottom":246,
+  "bbox_bottom":169,
   "bbox_left":7,
   "bbox_right":153,
-  "bbox_top":73,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":335,
+  "height":170,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"716a44e2-3ed9-46f5-8c51-3b552d9d09af","blendMode":0,"displayName":"default","isLocked":false,"name":"716a44e2-3ed9-46f5-8c51-3b552d9d09af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":480,
+  "width":157,
 }
