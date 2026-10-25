@@ -4,7 +4,7 @@ draw_self();
 
 
 // Show the tutorial above the first item
-if (global.show_tutorial and global.trash_sorted == 0)
+if (global.show_tutorial and global.trash_sorted == 0 and room == Fight_1)
 {
     draw_set_color(c_blue);
     draw_set_halign(fa_center);
@@ -18,7 +18,7 @@ if (global.show_tutorial and global.trash_sorted == 0)
 	
 }
 
-if (global.show_tutorial and global.trash_sorted == 1)
+if (global.show_tutorial and global.trash_sorted == 1 and room == Fight_1)
 {
 	draw_set_color(c_blue);
     draw_set_halign(fa_center);

@@ -8,8 +8,8 @@
   "name":"Obj_Styrofoam_Cup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Garbage Gaurdians",
-    "path":"Garbage Gaurdians.yyp",
+    "name":"Trash Objects",
+    "path":"folders/Objects/Trash Objects.yy",
   },
   "parentObjectId":{
     "name":"Obj_trash_parent",
