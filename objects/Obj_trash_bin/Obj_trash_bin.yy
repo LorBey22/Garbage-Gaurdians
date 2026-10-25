@@ -9,8 +9,8 @@
   "name":"Obj_trash_bin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Garbage Gaurdians",
-    "path":"Garbage Gaurdians.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
