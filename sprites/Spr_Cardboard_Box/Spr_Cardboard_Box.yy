@@ -3,8 +3,8 @@
   "%Name":"Spr_Cardboard_Box",
   "bboxMode":0,
   "bbox_bottom":942,
-  "bbox_left":76,
-  "bbox_right":1284,
+  "bbox_left":16,
+  "bbox_right":1224,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1350,
+  "width":1240,
 }

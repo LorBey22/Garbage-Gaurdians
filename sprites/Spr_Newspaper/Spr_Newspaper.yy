@@ -3,8 +3,8 @@
   "%Name":"Spr_Newspaper",
   "bboxMode":0,
   "bbox_bottom":950,
-  "bbox_left":412,
-  "bbox_right":1549,
+  "bbox_left":12,
+  "bbox_right":1149,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1082,
+  "height":960,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"bb75db8f-55f4-4210-8bb1-c8ab933d3980","blendMode":0,"displayName":"default","isLocked":false,"name":"bb75db8f-55f4-4210-8bb1-c8ab933d3980","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1550,
+  "width":1150,
 }
