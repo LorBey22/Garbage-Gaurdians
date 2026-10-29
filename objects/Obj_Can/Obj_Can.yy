@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Can",
+    "path":"sprites/Spr_Can/Spr_Can.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
