@@ -29,7 +29,11 @@
   "resources":[
     {"id":{"name":"Obj_Can","path":"objects/Obj_Can/Obj_Can.yy",},},
     {"id":{"name":"Obj_candy_wrapper","path":"objects/Obj_candy_wrapper/Obj_candy_wrapper.yy",},},
+    {"id":{"name":"Obj_Cardboard_Box","path":"objects/Obj_Cardboard_Box/Obj_Cardboard_Box.yy",},},
     {"id":{"name":"Obj_Chip_Bag","path":"objects/Obj_Chip_Bag/Obj_Chip_Bag.yy",},},
+    {"id":{"name":"Obj_Glass_Bottle","path":"objects/Obj_Glass_Bottle/Obj_Glass_Bottle.yy",},},
+    {"id":{"name":"Obj_Newspaper","path":"objects/Obj_Newspaper/Obj_Newspaper.yy",},},
+    {"id":{"name":"Obj_Platic_Bottle","path":"objects/Obj_Platic_Bottle/Obj_Platic_Bottle.yy",},},
     {"id":{"name":"Obj_Play_Button","path":"objects/Obj_Play_Button/Obj_Play_Button.yy",},},
     {"id":{"name":"Obj_Quit_Button","path":"objects/Obj_Quit_Button/Obj_Quit_Button.yy",},},
     {"id":{"name":"Obj_recycling_bin","path":"objects/Obj_recycling_bin/Obj_recycling_bin.yy",},},
