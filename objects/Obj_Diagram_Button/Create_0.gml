@@ -1,0 +1,1 @@
+global.diagram_shown = false

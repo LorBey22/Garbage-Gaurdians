@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"Spr_Cardboard_Box",
   "bboxMode":0,
-  "bbox_bottom":942,
-  "bbox_left":16,
-  "bbox_right":1224,
+  "bbox_bottom":113,
+  "bbox_left":2,
+  "bbox_right":147,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":943,
+  "height":114,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"46a3c592-119b-4e1e-adc7-551c1e8d7833","blendMode":0,"displayName":"default","isLocked":false,"name":"46a3c592-119b-4e1e-adc7-551c1e8d7833","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1240,
+  "width":150,
 }
