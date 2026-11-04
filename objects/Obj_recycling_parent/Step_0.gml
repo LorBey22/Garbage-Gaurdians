@@ -33,7 +33,7 @@ if (dragging)
 			// Remove the item that was sorted
 			instance_destroy();
 			// Spawn a new random trash item if the monster is alive
-			if (!global.game_won)
+			if (!global.game_won and room == Fight_1)
 			{
 				var trash_choice = choose(
 					Obj_candy_wrapper,
@@ -58,9 +58,13 @@ if (dragging)
 				    Obj_Chip_Bag,
 					Obj_Styrofoam_Cup,
 					Obj_Used_Tissue,
-					Obj_Can
+					Obj_Can,
+					Obj_Cardboard_Box,
+					Obj_Glass_Bottle,
+					Obj_Newspaper,
+					Obj_Platic_Bottle,
 				);
-
+				
 				instance_create_layer(
 					650,
 					85,
@@ -118,9 +122,13 @@ if (dragging)
 				    Obj_Chip_Bag,
 					Obj_Styrofoam_Cup,
 					Obj_Used_Tissue,
-					Obj_Can
+					Obj_Can,
+					Obj_Cardboard_Box,
+					Obj_Glass_Bottle,
+					Obj_Newspaper,
+					Obj_Platic_Bottle,
 				);
-
+				
 				instance_create_layer(
 					650,
 					85,
@@ -129,7 +137,7 @@ if (dragging)
 				);
 				global.trash_sorted += 1				
 			}
-
+		
 		}
     }
 

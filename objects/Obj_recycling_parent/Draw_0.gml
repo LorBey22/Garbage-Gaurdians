@@ -27,6 +27,26 @@ if (position_meeting(mouse_x, mouse_y, id))
 		case Obj_Can:
 			item_name = "Can";
 			break;
+			
+		case Obj_Can:
+			item_name = "Can";
+			break;
+		
+		case Obj_Cardboard_Box:
+			item_name = "Cardboard Box";
+			break;
+			
+		case Obj_Newspaper:
+			item_name = "Newspaper";
+			break;
+			
+		case Obj_Glass_Bottle:
+			item_name = "Glass Bottle";
+			break;
+			
+		case Obj_Platic_Bottle:
+			item_name = "Plastic Bottle";
+			break;
 	}
 
     // Make the label easy to read

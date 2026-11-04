@@ -18,15 +18,15 @@ if (global.show_tutorial and global.trash_sorted == 0 and room == Fight_1)
 	
 }
 
-if (global.show_tutorial and global.trash_sorted == 1 and room == Fight_1)
+if (global.show_tutorial and global.trash_sorted == 1 and room == Fight_1 and !global.diagram_up and !global.diagram_shown)
 {
 	draw_set_color(c_blue);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
 
-    draw_text(200, 100, @"CLICK THE QUESTION MARK TO SEE 
+    draw_text(230, 100, @"CLICK THE QUESTION MARK TO SEE 
 	A HELPFUL TRASH CHART");
-	draw_arrow(128,64,57,45,20)
+	draw_arrow(188,64,107,45,20)
 
     draw_set_color(c_white);
 }
@@ -52,6 +52,26 @@ if (position_meeting(mouse_x, mouse_y, id))
 
 		case Obj_Used_Tissue:
 			item_name = "Used Tissue";
+			break;
+		
+		case Obj_Can:
+			item_name = "Can";
+			break;
+		
+		case Obj_Cardboard_Box:
+			item_name = "Cardboard Box";
+			break;
+			
+		case Obj_Newspaper:
+			item_name = "Newspaper";
+			break;
+			
+		case Obj_Glass_Bottle:
+			item_name = "Glass Bottle";
+			break;
+			
+		case Obj_Platic_Bottle:
+			item_name = "Plastic Bottle";
 			break;
 	}
 

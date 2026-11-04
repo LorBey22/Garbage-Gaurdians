@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_testing_monster",
-    "path":"sprites/Spr_testing_monster/Spr_testing_monster.yy",
+    "name":"Spr__monster",
+    "path":"sprites/Spr__monster/Spr__monster.yy",
   },
   "spriteMaskId":null,
   "visible":true,

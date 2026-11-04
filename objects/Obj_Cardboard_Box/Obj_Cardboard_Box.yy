@@ -8,8 +8,8 @@
   "name":"Obj_Cardboard_Box",
   "overriddenProperties":[],
   "parent":{
-    "name":"Garbage Gaurdians",
-    "path":"Garbage Gaurdians.yyp",
+    "name":"Recycling Objects",
+    "path":"folders/Objects/Recycling Objects.yy",
   },
   "parentObjectId":{
     "name":"Obj_recycling_parent",
