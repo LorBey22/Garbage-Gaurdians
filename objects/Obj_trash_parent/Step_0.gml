@@ -30,8 +30,6 @@ if (dragging)
                     }
                 }
 			}
-			// Remove the item that was sorted
-			//instance_destroy();
 			// Spawn a new random trash item if the monster is alive
 			if (!global.game_won and room == Fight_1)
 			{
@@ -73,6 +71,29 @@ if (dragging)
 				);
 				global.trash_sorted += 1				
 			}
+			else if (!global.game_won and room == Fight_3)
+			{
+				var trash_choice = choose(
+					Obj_candy_wrapper,
+				    Obj_Chip_Bag,
+					Obj_Styrofoam_Cup,
+					Obj_Used_Tissue,
+					Obj_Can,
+					Obj_Cardboard_Box,
+					Obj_Glass_Bottle,
+					Obj_Newspaper,
+					Obj_Platic_Bottle,
+				);
+				
+				instance_create_layer(
+					650,
+					85,
+					"Trash_Instances",
+					trash_choice
+				);
+				global.trash_sorted += 1				
+			}
+			// Remove the item that was sorted
 			instance_destroy();
 		}
         else if (place_meeting(x, y, Obj_recycling_bin))
@@ -98,26 +119,8 @@ if (dragging)
 		
 			}
 			//instance_destroy();
-			// Spawn a new random trash item if the monster is alive
-			if (!global.game_won and room == Fight_1)
-			{
-				var trash_choice = choose(
-					Obj_candy_wrapper,
-				    Obj_Chip_Bag,
-					Obj_Styrofoam_Cup,
-					Obj_Used_Tissue,
-				);
-				
-				instance_create_layer(
-					650,
-					85,
-					"Trash_Instances",
-					trash_choice
-				);
-				global.trash_sorted += 1
-					//global.show_tutorial = false
-			}
-			else if (!global.game_won and room == Fight_2)
+			// Spawn a new random trash item if the monster is alive	
+			if (!global.game_won and room == Fight_2)
 			{
 
 				var trash_choice = choose(
@@ -140,7 +143,77 @@ if (dragging)
 				);
 				global.trash_sorted += 1				
 			}
+			else if (!global.game_won and room == Fight_3)
+			{
+				var trash_choice = choose(
+					Obj_candy_wrapper,
+				    Obj_Chip_Bag,
+					Obj_Styrofoam_Cup,
+					Obj_Used_Tissue,
+					Obj_Can,
+					Obj_Cardboard_Box,
+					Obj_Glass_Bottle,
+					Obj_Newspaper,
+					Obj_Platic_Bottle,
+				);
+				
+				instance_create_layer(
+					650,
+					85,
+					"Trash_Instances",
+					trash_choice
+				);
+				global.trash_sorted += 1				
+			}
 			instance_destroy();
+		}
+		else if (place_meeting(x, y, Obj_compost_bin))
+        {
+            if (!global.game_won)
+            {
+                // Increases monster health for a incorrectly sorted item
+                if (instance_exists(Obj_Trash_Monster))
+                {
+                    with (Obj_Trash_Monster)
+                    {
+                        mon_health += 5;
+
+                        if (mon_health <= 0)
+                        {
+                            mon_health = 0;
+                            global.game_won = true;
+                            instance_destroy();
+							room_goto_next()
+                        }
+                    }
+                }
+		
+			}
+			instance_destroy();
+			// Spawn a new random trash item if the monster is alive
+			if (!global.game_won and room == Fight_3)
+			{
+				var trash_choice = choose(
+					Obj_candy_wrapper,
+				    Obj_Chip_Bag,
+					Obj_Styrofoam_Cup,
+					Obj_Used_Tissue,
+					Obj_Can,
+					Obj_Cardboard_Box,
+					Obj_Glass_Bottle,
+					Obj_Newspaper,
+					Obj_Platic_Bottle,
+				);
+				
+				instance_create_layer(
+					650,
+					85,
+					"Trash_Instances",
+					trash_choice
+				);
+				global.trash_sorted += 1				
+			}
+		
 		}
     }
 
