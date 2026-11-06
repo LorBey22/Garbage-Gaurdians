@@ -47,6 +47,7 @@ if (dragging)
 					trash_choice
 				);
 				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 					//global.show_tutorial = false
 			}
 			else if (!global.game_won and room == Fight_2)
@@ -69,7 +70,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1	
+				global.trash_picked = trash_choice
 			}
 			else if (!global.game_won and room == Fight_3)
 			{
@@ -91,16 +93,31 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			// Remove the item that was sorted
 			instance_destroy();
 		}
         else if (place_meeting(x, y, Obj_recycling_bin))
         {
+			// Wrong Answer Explanation
+			instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
+					//Add explanation exit button
+			instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
             if (!global.game_won)
             {
-                // Increases monster health for a incorrectly sorted item
+				// Increases monster health for a incorrectly sorted item
                 if (instance_exists(Obj_Trash_Monster))
                 {
                     with (Obj_Trash_Monster)
@@ -116,6 +133,7 @@ if (dragging)
                         }
                     }
                 }
+				
 		
 			}
 			//instance_destroy();
@@ -141,7 +159,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			else if (!global.game_won and room == Fight_3)
 			{
@@ -163,7 +182,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			instance_destroy();
 		}
@@ -171,7 +191,21 @@ if (dragging)
         {
             if (!global.game_won)
             {
-                // Increases monster health for a incorrectly sorted item
+                // Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
+					//Add explanation exit button
+					instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
+				// Increases monster health for a incorrectly sorted item
                 if (instance_exists(Obj_Trash_Monster))
                 {
                     with (Obj_Trash_Monster)
@@ -211,7 +245,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 		
 		}
