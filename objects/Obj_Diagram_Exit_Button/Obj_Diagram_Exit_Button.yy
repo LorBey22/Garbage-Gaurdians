@@ -8,8 +8,8 @@
   "name":"Obj_Diagram_Exit_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Garbage Gaurdians",
-    "path":"Garbage Gaurdians.yyp",
+    "name":"Diagram Objects",
+    "path":"folders/Objects/Diagram Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

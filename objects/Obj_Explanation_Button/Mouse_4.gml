@@ -1,0 +1,2 @@
+instance_destroy(Obj_Explanation)
+instance_destroy(Obj_Explanation_Button)

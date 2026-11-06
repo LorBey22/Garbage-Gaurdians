@@ -28,6 +28,20 @@ if (dragging)
 							room_goto_next()
                         }
                     }
+					// Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
+					//Add explanation exit button
+					instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
                 }
 			}
 			// Remove the item that was sorted
@@ -187,6 +201,20 @@ if (dragging)
 							room_goto_next()
                         }
                     }
+					// Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
+					//Add explanation exit button
+					instance_create_layer
+					(
+					640,448,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
                 }
 		
 			}
