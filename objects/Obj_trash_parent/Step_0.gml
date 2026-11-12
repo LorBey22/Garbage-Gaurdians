@@ -101,6 +101,8 @@ if (dragging)
 		}
         else if (place_meeting(x, y, Obj_recycling_bin))
         {
+			
+
             if (!global.game_won)
             {
 				// Increases monster health for a incorrectly sorted item
@@ -118,22 +120,21 @@ if (dragging)
 							room_goto_next()
                         }
                     }
-					// Wrong Answer Explanation
+                }
+				//Add explanation exit button
 					instance_create_layer
 					(
-					640,448,
-					"Diagram_Instance",
-					Obj_Explanation
-					)
-					//Add explanation exit button
-					instance_create_layer
-					(
-					640,448,
+					640,675,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
-                }
-				
+					///Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,400,
+					"Diagram_Instance",
+					Obj_Explanation
+					)				
 		
 			}
 			//instance_destroy();
@@ -191,6 +192,20 @@ if (dragging)
         {
             if (!global.game_won)
             {
+                // Wrong Answer Explanation
+					//instance_create_layer
+					//(
+					//640,448,
+					//"Diagram_Instance",
+					//Obj_Explanation
+					//)
+					//Add explanation exit button
+					//instance_create_layer
+					//(
+					//640,448,
+					//"Diagram_Instance",
+					//Obj_Explanation_Button
+					//)
 				// Increases monster health for a incorrectly sorted item
                 if (instance_exists(Obj_Trash_Monster))
                 {
@@ -206,20 +221,6 @@ if (dragging)
 							room_goto_next()
                         }
                     }
-					// Wrong Answer Explanation
-					instance_create_layer
-					(
-					640,448,
-					"Diagram_Instance",
-					Obj_Explanation
-					)
-					//Add explanation exit button
-					instance_create_layer
-					(
-					640,448,
-					"Diagram_Instance",
-					Obj_Explanation_Button
-					)
                 }
 		
 			}

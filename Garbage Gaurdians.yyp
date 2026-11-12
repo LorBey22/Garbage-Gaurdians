@@ -71,6 +71,7 @@
     {"id":{"name":"Spr_Diagram_2","path":"sprites/Spr_Diagram_2/Spr_Diagram_2.yy",},},
     {"id":{"name":"Spr_Diagram_Button","path":"sprites/Spr_Diagram_Button/Spr_Diagram_Button.yy",},},
     {"id":{"name":"Spr_Diagram_Exit_Button","path":"sprites/Spr_Diagram_Exit_Button/Spr_Diagram_Exit_Button.yy",},},
+    {"id":{"name":"Spr_Explanation_Button","path":"sprites/Spr_Explanation_Button/Spr_Explanation_Button.yy",},},
     {"id":{"name":"Spr_Fight_Background","path":"sprites/Spr_Fight_Background/Spr_Fight_Background.yy",},},
     {"id":{"name":"Spr_Glass_Bottle","path":"sprites/Spr_Glass_Bottle/Spr_Glass_Bottle.yy",},},
     {"id":{"name":"spr_glass_explanation","path":"sprites/spr_glass_explanation/spr_glass_explanation.yy",},},

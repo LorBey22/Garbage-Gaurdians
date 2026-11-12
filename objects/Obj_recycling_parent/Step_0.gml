@@ -28,19 +28,19 @@ if (dragging)
 							room_goto_next()
                         }
                     }
-					// Wrong Answer Explanation
+				//Add explanation exit button
 					instance_create_layer
 					(
-					640,448,
-					"Diagram_Instance",
-					Obj_Explanation
-					)
-					//Add explanation exit button
-					instance_create_layer
-					(
-					640,448,
+					640,675,
 					"Diagram_Instance",
 					Obj_Explanation_Button
+					)
+					///Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,400,
+					"Diagram_Instance",
+					Obj_Explanation
 					)
                 }
 			}
@@ -63,7 +63,8 @@ if (dragging)
 					trash_choice
 				);
 				global.trash_sorted += 1
-					//global.show_tutorial = false
+				global.trash_picked = trash_choice
+	
 			}
 			else if (!global.game_won and room == Fight_2)
 			{
@@ -85,7 +86,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			else if (!global.game_won and room == Fight_3)
 			{
@@ -107,7 +109,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			
 		}
@@ -155,7 +158,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			else if (!global.game_won and room == Fight_3)
 			{
@@ -177,7 +181,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 		
 		}
@@ -202,19 +207,19 @@ if (dragging)
                         }
                     }
 					// Wrong Answer Explanation
-					instance_create_layer
-					(
-					640,448,
-					"Diagram_Instance",
-					Obj_Explanation
-					)
+					//instance_create_layer
+					//(
+					//640,448,
+					//"Diagram_Instance",
+					//Obj_Explanation
+					//)
 					//Add explanation exit button
-					instance_create_layer
-					(
-					640,448,
-					"Diagram_Instance",
-					Obj_Explanation_Button
-					)
+					//instance_create_layer
+					//(
+					//640,448,
+					//"Diagram_Instance",
+					//Obj_Explanation_Button
+					//)
                 }
 		
 			}

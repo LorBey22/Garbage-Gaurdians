@@ -9,25 +9,6 @@ if (position_meeting(mouse_x, mouse_y, id))
 
 	switch (object_index)
 	{
-		case Obj_candy_wrapper:
-			item_name = "Candy Wrapper";
-			break;
-
-		case Obj_Chip_Bag:
-			item_name = "Chip Bag";
-			break;
-
-		case Obj_Styrofoam_Cup:
-			item_name = "Styrofoam Cup";
-			break;
-
-		case Obj_Used_Tissue:
-			item_name = "Used Tissue";
-			break;
-		case Obj_Can:
-			item_name = "Can";
-			break;
-			
 		case Obj_Can:
 			item_name = "Can";
 			break;
