@@ -24,9 +24,6 @@ if (position_meeting(mouse_x, mouse_y, id))
 		case Obj_Used_Tissue:
 			item_name = "Used Tissue";
 			break;
-		case Obj_Can:
-			item_name = "Can";
-			break;
 			
 		case Obj_Can:
 			item_name = "Can";
