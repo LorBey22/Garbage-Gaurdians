@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_play_button",
-    "path":"sprites/Spr_play_button/Spr_play_button.yy",
+    "name":"Spr_Explanation_Button",
+    "path":"sprites/Spr_Explanation_Button/Spr_Explanation_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
