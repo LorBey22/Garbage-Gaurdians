@@ -6,11 +6,11 @@ if global.trash_picked == Obj_candy_wrapper
 
 else if global.trash_picked == Obj_Chip_Bag
 {
-	sprite_index = spr_styrofoam_explanation
+	sprite_index = spr_chip_explanation
 }
 else if global.trash_picked == Obj_Styrofoam_Cup
 {
-	sprite_index = spr_chip_explanation
+	sprite_index = spr_styrofoam_explanation
 }
 else if global.trash_picked == Obj_Used_Tissue
 {
