@@ -30,6 +30,7 @@
   },
   "name":"Garbage Gaurdians",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Obj_Can","path":"objects/Obj_Can/Obj_Can.yy",},},
     {"id":{"name":"Obj_candy_wrapper","path":"objects/Obj_candy_wrapper/Obj_candy_wrapper.yy",},},
     {"id":{"name":"Obj_Cardboard_Box","path":"objects/Obj_Cardboard_Box/Obj_Cardboard_Box.yy",},},

@@ -6,9 +6,10 @@ draw_self();
 // Show the tutorial above the first item
 if (global.show_tutorial and global.trash_sorted == 0 and room == Fight_1)
 {
-    draw_set_color(c_blue);
+    draw_set_color(c_white);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
+	draw_set_font(Font1)
 
     draw_text(x+200, y+50, @"DRAG ME TO THE TRASH
 	TO DEFEAT THE
@@ -16,19 +17,22 @@ if (global.show_tutorial and global.trash_sorted == 0 and room == Fight_1)
 
     draw_set_color(c_white);
 	
+	
 }
 
 if (global.show_tutorial and global.trash_sorted == 1 and room == Fight_1 and !global.diagram_up and !global.diagram_shown)
 {
-	draw_set_color(c_blue);
+	draw_set_color(c_white);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
+	
 
-    draw_text(230, 100, @"CLICK THE QUESTION MARK TO SEE 
+    draw_text(330, 100, @"CLICK THE QUESTION MARK TO SEE 
 	A HELPFUL TRASH CHART");
 	draw_arrow(188,64,107,45,20)
 
     draw_set_color(c_white);
+	
 }
 
 // Check whether the mouse is hovering over this item
