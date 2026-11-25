@@ -207,19 +207,19 @@ if (dragging)
                         }
                     }
 					// Wrong Answer Explanation
-					//instance_create_layer
-					//(
-					//640,448,
-					//"Diagram_Instance",
-					//Obj_Explanation
-					//)
-					//Add explanation exit button
-					//instance_create_layer
-					//(
-					//640,448,
-					//"Diagram_Instance",
-					//Obj_Explanation_Button
-					//)
+					instance_create_layer
+					(
+					640,675,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
+					///Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,400,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
                 }
 		
 			}
@@ -237,6 +237,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(

@@ -238,6 +238,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(

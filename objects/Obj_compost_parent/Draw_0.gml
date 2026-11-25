@@ -9,40 +9,24 @@ if (position_meeting(mouse_x, mouse_y, id))
 
 	switch (object_index)
 	{
-		case Obj_candy_wrapper:
-			item_name = "Candy Wrapper";
-			break;
-
-		case Obj_Chip_Bag:
-			item_name = "Chip Bag";
-			break;
-
-		case Obj_Styrofoam_Cup:
-			item_name = "Styrofoam Cup";
-			break;
-
-		case Obj_Used_Tissue:
-			item_name = "Used Tissue";
-			break;
-			
-		case Obj_Can:
-			item_name = "Can";
+		case Obj_Apple_Core:
+			item_name = "Apple Core";
 			break;
 		
-		case Obj_Cardboard_Box:
-			item_name = "Cardboard Box";
+		case Obj_Banana_Peel:
+			item_name = "Banana Peel";
 			break;
 			
-		case Obj_Newspaper:
-			item_name = "Newspaper";
+		case Obj_Egg_Shell:
+			item_name = "Egg Shell";
 			break;
 			
-		case Obj_Glass_Bottle:
-			item_name = "Glass Bottle";
+		case Obj_Potato_Skins:
+			item_name = "Potato Skins";
 			break;
 			
-		case Obj_Platic_Bottle:
-			item_name = "Plastic Bottle";
+		case Obj_Garden_Weeds:
+			item_name = "Garden Weeds";
 			break;
 	}
 
