@@ -28,6 +28,20 @@ if (dragging)
 							room_goto_next()
                         }
                     }
+				//Add explanation exit button
+					instance_create_layer
+					(
+					640,675,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
+					///Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,400,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
                 }
 			}
 			// Remove the item that was sorted
@@ -49,7 +63,8 @@ if (dragging)
 					trash_choice
 				);
 				global.trash_sorted += 1
-					//global.show_tutorial = false
+				global.trash_picked = trash_choice
+	
 			}
 			else if (!global.game_won and room == Fight_2)
 			{
@@ -71,7 +86,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			else if (!global.game_won and room == Fight_3)
 			{
@@ -93,7 +109,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			
 		}
@@ -116,7 +133,22 @@ if (dragging)
 							room_goto_next()
                         }
                     }
+				//Add explanation exit button
+					instance_create_layer
+					(
+					640,675,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
+					///Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,400,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
                 }
+		
 			}
 			instance_destroy();
 			// Spawn a new random trash item if the monster is alive
@@ -140,7 +172,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 			else if (!global.game_won and room == Fight_3)
 			{
@@ -162,7 +195,8 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
 		
 		}
@@ -171,8 +205,8 @@ if (dragging)
         {
             if (!global.game_won)
             {
-                // Decreases monster health for a correctly sorted item
-                if (instance_exists(Obj_Trash_Monster))
+                // Increases monster health for a incorrectly sorted item
+               if (instance_exists(Obj_Trash_Monster))
                 {
                     with (Obj_Trash_Monster)
                     {
@@ -203,6 +237,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(

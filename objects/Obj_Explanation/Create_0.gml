@@ -36,3 +36,23 @@ else if global.trash_picked == Obj_Cardboard_Box
 {
 	sprite_index = spr_box_explanation
 }
+else if global.trash_picked == Obj_Apple_Core
+{
+	sprite_index = spr_apple_explanation
+}
+else if global.trash_picked == Obj_Banana_Peel
+{
+	sprite_index = spr_banana_explanation
+}
+else if global.trash_picked == Obj_Potato_Skins
+{
+	sprite_index = spr_potato_explanation
+}
+else if global.trash_picked == Obj_Egg_Shell
+{
+	sprite_index = spr_egg_explanation
+}
+else if global.trash_picked == Obj_Garden_Weeds
+{
+	sprite_index = spr_weeds_explanation
+}

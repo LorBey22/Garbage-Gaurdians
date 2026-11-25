@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Compost Objects","folderPath":"folders/Objects/Compost Objects.yy","name":"Compost Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Diagram Objects","folderPath":"folders/Objects/Diagram Objects.yy","name":"Diagram Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Recycling Objects","folderPath":"folders/Objects/Recycling Objects.yy","name":"Recycling Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Title Screen Objects","folderPath":"folders/Objects/Title Screen Objects.yy","name":"Title Screen Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -68,7 +69,6 @@
     {"id":{"name":"spr_banana_explanation","path":"sprites/spr_banana_explanation/spr_banana_explanation.yy",},},
     {"id":{"name":"spr_box_explanation","path":"sprites/spr_box_explanation/spr_box_explanation.yy",},},
     {"id":{"name":"Spr_button_background","path":"sprites/Spr_button_background/Spr_button_background.yy",},},
-    {"id":{"name":"spr_can_explanation","path":"sprites/spr_can_explanation/spr_can_explanation.yy",},},
     {"id":{"name":"Spr_Can","path":"sprites/Spr_Can/Spr_Can.yy",},},
     {"id":{"name":"spr_candy_explanation","path":"sprites/spr_candy_explanation/spr_candy_explanation.yy",},},
     {"id":{"name":"Spr_Candy_Wrapper","path":"sprites/Spr_Candy_Wrapper/Spr_Candy_Wrapper.yy",},},
