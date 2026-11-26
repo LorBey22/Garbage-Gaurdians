@@ -112,6 +112,10 @@ if (dragging)
                     {
                         mon_health += 5;
 						
+						{
+							mon_health = 100;
+						}
+						
 
                         if (mon_health <= 0)
                         {
@@ -213,6 +217,11 @@ if (dragging)
                     with (Obj_Trash_Monster)
                     {
                         mon_health += 5;
+						
+						if mon_health < 100
+						{
+							mon_health = 100;
+						}
 						
 
                         if (mon_health <= 0)
