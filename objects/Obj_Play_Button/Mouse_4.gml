@@ -1,1 +1,1 @@
-room_goto(Level_Select);
+room_goto(Fight_1);
