@@ -8,8 +8,8 @@
   "name":"Obj_Explanation_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Explanation Objects",
-    "path":"folders/Objects/Explanation Objects.yy",
+    "name":"Garbage Gaurdians",
+    "path":"Garbage Gaurdians.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
