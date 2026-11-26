@@ -27,9 +27,9 @@ if (global.show_tutorial and global.trash_sorted == 1 and room == Fight_1 and !g
     draw_set_valign(fa_middle);
 	
 
-    draw_text(330, 100, @"CLICK THE QUESTION MARK TO SEE 
+    draw_text(186, 160, @"CLICK THE QUESTION MARK TO SEE 
 	A HELPFUL TRASH CHART");
-	draw_arrow(188,64,107,45,20)
+	draw_arrow(160,128,90,85,20)
 
     draw_set_color(c_white);
 	

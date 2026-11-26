@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Compost Objects","folderPath":"folders/Objects/Compost Objects.yy","name":"Compost Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Diagram Objects","folderPath":"folders/Objects/Diagram Objects.yy","name":"Diagram Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Explanation Objects","folderPath":"folders/Objects/Explanation Objects.yy","name":"Explanation Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Recycling Objects","folderPath":"folders/Objects/Recycling Objects.yy","name":"Recycling Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Title Screen Objects","folderPath":"folders/Objects/Title Screen Objects.yy","name":"Title Screen Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Trash Objects","folderPath":"folders/Objects/Trash Objects.yy","name":"Trash Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,6 +32,7 @@
   },
   "name":"Garbage Gaurdians",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Obj_Apple_Core","path":"objects/Obj_Apple_Core/Obj_Apple_Core.yy",},},
     {"id":{"name":"Obj_Banana_Peel","path":"objects/Obj_Banana_Peel/Obj_Banana_Peel.yy",},},
     {"id":{"name":"Obj_Can","path":"objects/Obj_Can/Obj_Can.yy",},},
@@ -47,6 +49,7 @@
     {"id":{"name":"Obj_Explanation","path":"objects/Obj_Explanation/Obj_Explanation.yy",},},
     {"id":{"name":"Obj_Garden_Weeds","path":"objects/Obj_Garden_Weeds/Obj_Garden_Weeds.yy",},},
     {"id":{"name":"Obj_Glass_Bottle","path":"objects/Obj_Glass_Bottle/Obj_Glass_Bottle.yy",},},
+    {"id":{"name":"Obj_Health_Bar","path":"objects/Obj_Health_Bar/Obj_Health_Bar.yy",},},
     {"id":{"name":"Obj_Newspaper","path":"objects/Obj_Newspaper/Obj_Newspaper.yy",},},
     {"id":{"name":"Obj_Platic_Bottle","path":"objects/Obj_Platic_Bottle/Obj_Platic_Bottle.yy",},},
     {"id":{"name":"Obj_Play_Button","path":"objects/Obj_Play_Button/Obj_Play_Button.yy",},},
