@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Apple_Core",
+    "path":"sprites/Spr_Apple_Core/Spr_Apple_Core.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

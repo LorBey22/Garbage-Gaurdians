@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Garden_Weeds",
+    "path":"sprites/Spr_Garden_Weeds/Spr_Garden_Weeds.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
