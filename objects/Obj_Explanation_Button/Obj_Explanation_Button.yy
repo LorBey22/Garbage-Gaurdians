@@ -8,8 +8,8 @@
   "name":"Obj_Explanation_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Explanation Objects",
-    "path":"folders/Objects/Explanation Objects.yy",
+    "name":"Garbage Gaurdians",
+    "path":"Garbage Gaurdians.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Explanation_Button",
-    "path":"sprites/Spr_Explanation_Button/Spr_Explanation_Button.yy",
+    "name":"Spr_play_button",
+    "path":"sprites/Spr_play_button/Spr_play_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
