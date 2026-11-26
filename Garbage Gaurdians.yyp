@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Compost Sprites","folderPath":"folders/Sprites/Compost Sprites.yy","name":"Compost Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Compost Objects","folderPath":"folders/Objects/Compost Objects.yy","name":"Compost Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Diagram Objects","folderPath":"folders/Objects/Diagram Objects.yy","name":"Diagram Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -19,6 +18,7 @@
     {"$GMFolder":"","%Name":"Title Screen Objects","folderPath":"folders/Objects/Title Screen Objects.yy","name":"Title Screen Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Trash Objects","folderPath":"folders/Objects/Trash Objects.yy","name":"Trash Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Compost Sprites","folderPath":"folders/Sprites/Compost Sprites.yy","name":"Compost Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Explanation Sprites","folderPath":"folders/Sprites/Explanation Sprites.yy","name":"Explanation Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Recycling Sprites","folderPath":"folders/Sprites/Recycling Sprites.yy","name":"Recycling Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Title Sprites","folderPath":"folders/Sprites/Title Sprites.yy","name":"Title Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,7 +29,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.1.0.27",
   },
   "name":"Garbage Gaurdians",
   "resources":[
