@@ -19,6 +19,11 @@ if (dragging)
                     with (Obj_Trash_Monster)
                     {
                         mon_health += 5;
+						
+						if mon_health >= 100
+						{
+							mon_health = 100;
+						}
 
                         if (mon_health <= 0)
                         {
@@ -31,7 +36,7 @@ if (dragging)
 				//Add explanation exit button
 					instance_create_layer
 					(
-					640,675,
+					640,625,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
@@ -58,7 +63,7 @@ if (dragging)
 
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -82,7 +87,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -105,7 +110,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -154,7 +159,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -177,7 +182,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -197,6 +202,11 @@ if (dragging)
                     with (Obj_Trash_Monster)
                     {
                         mon_health += 5;
+						
+						if mon_health >= 100
+						{
+							mon_health = 100;
+						}
 
                         if (mon_health <= 0)
                         {
@@ -209,7 +219,7 @@ if (dragging)
 					// Wrong Answer Explanation
 					instance_create_layer
 					(
-					640,675,
+					640,625,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
@@ -246,7 +256,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
