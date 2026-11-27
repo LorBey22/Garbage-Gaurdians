@@ -72,6 +72,7 @@
     {"id":{"name":"Fight_1","path":"rooms/Fight_1/Fight_1.yy",},},
     {"id":{"name":"Fight_2","path":"rooms/Fight_2/Fight_2.yy",},},
     {"id":{"name":"Fight_3","path":"rooms/Fight_3/Fight_3.yy",},},
+    {"id":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
     {"id":{"name":"Title_Room","path":"rooms/Title_Room/Title_Room.yy",},},
     {"id":{"name":"Spr__monster","path":"sprites/Spr__monster/Spr__monster.yy",},},
     {"id":{"name":"Spr_Apple_Core","path":"sprites/Spr_Apple_Core/Spr_Apple_Core.yy",},},
