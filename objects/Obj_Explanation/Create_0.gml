@@ -50,7 +50,7 @@ else if global.trash_picked == Obj_Potato_Skins
 }
 else if global.trash_picked == Obj_Egg_Shell
 {
-	sprite_index = spr_egg_explanation
+	sprite_index = spr_egg_explantaion
 }
 else if global.trash_picked == Obj_Garden_Weeds
 {

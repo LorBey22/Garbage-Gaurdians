@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Recycling_Bin",
+    "path":"sprites/Spr_Recycling_Bin/Spr_Recycling_Bin.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

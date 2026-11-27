@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_Garden_Weeds",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_Garden_Weeds",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Compost Objects",
     "path":"folders/Objects/Compost Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_compost_parent",
+    "path":"objects/Obj_compost_parent/Obj_compost_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
