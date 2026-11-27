@@ -135,7 +135,6 @@ if (dragging)
                             mon_health = 0;
                             global.game_won = true;
                             instance_destroy();
-							room_goto_next()
                         }
                     }
                 }

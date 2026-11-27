@@ -25,7 +25,7 @@ if (dragging)
                             mon_health = 0;
                             global.game_won = true;
                             instance_destroy();
-							room_goto_next()
+							//room_goto_next()
                         }
                     }
                 }
@@ -112,6 +112,7 @@ if (dragging)
                     {
                         mon_health += 5;
 						
+						if mon_health >= 100
 						{
 							mon_health = 100;
 						}
@@ -218,7 +219,7 @@ if (dragging)
                     {
                         mon_health += 5;
 						
-						if mon_health < 100
+						if mon_health > 100
 						{
 							mon_health = 100;
 						}

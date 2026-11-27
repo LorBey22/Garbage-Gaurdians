@@ -8,8 +8,8 @@
   "name":"Obj_Fight_3_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Garbage Gaurdians",
-    "path":"Garbage Gaurdians.yyp",
+    "name":"Level Select Objects",
+    "path":"folders/Objects/Level Select Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
