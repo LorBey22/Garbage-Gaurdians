@@ -36,7 +36,7 @@ if (dragging)
 				//Add explanation exit button
 					instance_create_layer
 					(
-					640,625,
+					640,610,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
@@ -106,6 +106,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(
@@ -177,6 +182,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(
@@ -218,7 +228,7 @@ if (dragging)
 					// Wrong Answer Explanation
 					instance_create_layer
 					(
-					640,625,
+					640,610,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
@@ -259,8 +269,10 @@ if (dragging)
 					"Trash_Instances",
 					trash_choice
 				);
-				global.trash_sorted += 1				
+				global.trash_sorted += 1
+				global.trash_picked = trash_choice
 			}
+			
 		
 		}
     }
