@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Potato_Skins",
+    "path":"sprites/Spr_Potato_Skins/Spr_Potato_Skins.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Egg_Shell",
+    "path":"sprites/Spr_Egg_Shell/Spr_Egg_Shell.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

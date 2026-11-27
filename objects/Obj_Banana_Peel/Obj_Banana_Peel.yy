@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Banana_Peel",
+    "path":"sprites/Spr_Banana_Peel/Spr_Banana_Peel.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
