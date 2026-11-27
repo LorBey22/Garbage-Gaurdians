@@ -11,6 +11,7 @@
     {"name":"inst_A56D9F1_1","path":"rooms/Fight_3/Fight_3.yy",},
     {"name":"inst_7AC6E8E1_1","path":"rooms/Fight_3/Fight_3.yy",},
     {"name":"inst_76E95B07","path":"rooms/Fight_3/Fight_3.yy",},
+    {"name":"inst_2E4A6DAB","path":"rooms/Fight_3/Fight_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,6 +22,7 @@
     {"$GMRInstanceLayer":"","%Name":"Trash_Bin_Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_440739AC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_440739AC1","objectId":{"name":"Obj_trash_bin","path":"objects/Obj_trash_bin/Obj_trash_bin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":480.0,},
         {"$GMRInstance":"v4","%Name":"inst_21E3F38_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21E3F38_1","objectId":{"name":"Obj_recycling_bin","path":"objects/Obj_recycling_bin/Obj_recycling_bin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2E4A6DAB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E4A6DAB","objectId":{"name":"Obj_Level_Exit_Button","path":"objects/Obj_Level_Exit_Button/Obj_Level_Exit_Button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":0.0,},
       ],"layers":[],"name":"Trash_Bin_Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_3E58A9BE1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3E58A9BE1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Spr_Rock","path":"sprites/Spr_Rock/Spr_Rock.yy",},"x":0.0,"y":0.0,},
