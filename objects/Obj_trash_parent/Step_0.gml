@@ -85,6 +85,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(
@@ -130,7 +135,7 @@ if (dragging)
 				//Add explanation exit button
 					instance_create_layer
 					(
-					640,600,
+					640,610,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
@@ -181,6 +186,11 @@ if (dragging)
 					Obj_Glass_Bottle,
 					Obj_Newspaper,
 					Obj_Platic_Bottle,
+					Obj_Apple_Core,
+					Obj_Potato_Skins,
+					Obj_Banana_Peel,
+					Obj_Egg_Shell,
+					Obj_Garden_Weeds
 				);
 				
 				instance_create_layer(
@@ -198,20 +208,6 @@ if (dragging)
         {
             if (!global.game_won)
             {
-                // Wrong Answer Explanation
-					//instance_create_layer
-					//(
-					//640,448,
-					//"Diagram_Instance",
-					//Obj_Explanation
-					//)
-					//Add explanation exit button
-					//instance_create_layer
-					//(
-					//640,448,
-					//"Diagram_Instance",
-					//Obj_Explanation_Button
-					//)
 				// Increases monster health for a incorrectly sorted item
                 if (instance_exists(Obj_Trash_Monster))
                 {
@@ -233,6 +229,20 @@ if (dragging)
 							room_goto_next()
                         }
                     }
+					//explantion for wrong answer
+					instance_create_layer
+					(
+					640,610,
+					"Diagram_Instance",
+					Obj_Explanation_Button
+					)
+					///Wrong Answer Explanation
+					instance_create_layer
+					(
+					640,400,
+					"Diagram_Instance",
+					Obj_Explanation
+					)
                 }
 		
 			}
