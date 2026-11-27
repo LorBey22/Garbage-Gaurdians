@@ -130,7 +130,7 @@ if (dragging)
 				//Add explanation exit button
 					instance_create_layer
 					(
-					640,625,
+					640,600,
 					"Diagram_Instance",
 					Obj_Explanation_Button
 					)
