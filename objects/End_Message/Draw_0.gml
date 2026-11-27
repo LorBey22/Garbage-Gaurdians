@@ -15,7 +15,7 @@ draw_set_valign(fa_middle);
 draw_set_font(Font2)
 draw_set_colour(make_colour_rgb(189,52,27))
 
-draw_text(650,275, @"CONGRADULATIONS!!!
+draw_text(650,275, @"CONGRATULATIONS!!!
 You have sucessfully sorted all the trash
 and saved the world from these trash monsters")
 
