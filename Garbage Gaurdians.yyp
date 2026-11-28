@@ -64,6 +64,7 @@
     {"id":{"name":"Obj_Health_Bar","path":"objects/Obj_Health_Bar/Obj_Health_Bar.yy",},},
     {"id":{"name":"Obj_Level_Exit_Button","path":"objects/Obj_Level_Exit_Button/Obj_Level_Exit_Button.yy",},},
     {"id":{"name":"Obj_Level_Sprite_Mananger","path":"objects/Obj_Level_Sprite_Mananger/Obj_Level_Sprite_Mananger.yy",},},
+    {"id":{"name":"Obj_Little_Guy","path":"objects/Obj_Little_Guy/Obj_Little_Guy.yy",},},
     {"id":{"name":"Obj_Newspaper","path":"objects/Obj_Newspaper/Obj_Newspaper.yy",},},
     {"id":{"name":"Obj_Platic_Bottle","path":"objects/Obj_Platic_Bottle/Obj_Platic_Bottle.yy",},},
     {"id":{"name":"Obj_Play_Button","path":"objects/Obj_Play_Button/Obj_Play_Button.yy",},},
