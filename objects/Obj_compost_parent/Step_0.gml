@@ -87,7 +87,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -115,7 +115,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -184,7 +184,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -212,7 +212,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
@@ -267,7 +267,7 @@ if (dragging)
 				
 				instance_create_layer(
 					650,
-					85,
+					125,
 					"Trash_Instances",
 					trash_choice
 				);
