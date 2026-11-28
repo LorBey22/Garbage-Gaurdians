@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Recycling_Bin",
-    "path":"sprites/Spr_Recycling_Bin/Spr_Recycling_Bin.yy",
+    "name":"Spr_Compost_Bin",
+    "path":"sprites/Spr_Compost_Bin/Spr_Compost_Bin.yy",
   },
   "spriteMaskId":null,
   "visible":true,
